@@ -12,6 +12,13 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: rgb(223, 219, 219);
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.nav-bar > li {
+    display: flex;
+    justify-content: center;
 }
 
 .button{
@@ -49,7 +56,10 @@ ul{
     background-color: #fff;
     border: 1px solid gray;
     border-radius: 8px;
-    padding: 4px;
+    padding: 6px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .search:focus-within{
@@ -59,4 +69,9 @@ ul{
 .search > input {
     border: 0px;
     outline: none;
+}
+
+.iconSearch:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
