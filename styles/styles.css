@@ -13,3 +13,19 @@ ul{
     justify-content: space-between;
     padding: 10px;
 }
+
+.search{
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.search:focus-within{
+    border: 1.5px solid #000;
+}
+
+.search > input {
+    border: 0px;
+    outline: none;
+}
