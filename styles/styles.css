@@ -77,13 +77,15 @@ ul{
 }
 
 .containerImg{
-    width: 240px;
-    height: 350px;
+    width: 200px;
+    height: 300px;
     display: flex;
 }
 
 .containerProducts{
     display: flex;
+    justify-content: space-between;
+    margin: 45px;
 }
 
 .cardProduct{
