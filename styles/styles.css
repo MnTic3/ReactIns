@@ -13,3 +13,17 @@ ul{
     justify-content: space-between;
     padding: 10px;
 }
+
+.mainButton{
+    background-color: sandybrown;
+    color: white;
+    border: 0px;
+    font-weight: bolder;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.mainButton:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
