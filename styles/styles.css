@@ -75,3 +75,21 @@ ul{
     transform: scale(1.1);
     cursor: pointer;
 }
+
+.containerImg{
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+
+.containerProducts{
+    display: flex;
+}
+
+.cardProduct{
+    margin: 10px;
+}
+
+.containerImg > img {
+    object-fit: cover;
+}
