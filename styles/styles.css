@@ -80,6 +80,7 @@ ul{
     width: 200px;
     height: 300px;
     display: flex;
+    justify-content: center;
 }
 
 .containerProducts{
@@ -90,6 +91,39 @@ ul{
 
 .cardProduct{
     margin: 10px;
+    background-color: rgb(128, 128, 128);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+}
+
+.cardProduct:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footerCard{
+    background-color: rgb(158, 156, 156);
+    height: 50px;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titlePage{
+    text-align: center;
+    direction: rtl;
+}
+
+.hearthIcon{
+    color: red;
+}
+
+.titleProduct{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
 }
 
 .containerImg > img {
