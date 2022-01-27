@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom"
+
 function ProductCard({ img, name, qLikes, qComments, qViews }) {
     return (
         <li className="cardProduct">
-            <div className="containerImg">
-                <img src={img} alt="aguila_beer" />
-            </div>
+            <Link to="/aguila">
+                <div className="containerImg">
+                    <img src={img} alt="aguila_beer" />
+                </div>
+            </Link>
             <span className="titleProduct">{name}</span>
             <div className="footerCard">
                 <span className="titleProduct">{qLikes}</span>
